@@ -56,9 +56,12 @@ const produceMessages = async (queueName) => {
 const main = async () => {
   await initQueues();
 
+  const promises = [];
   for (const queueName of queueNames) {
-    await produceMessages(queueName);
+    promises.push(produceMessages(queueName));
   }
+
+  await Promise.all(promises);
 
   console.log("done");
 };
