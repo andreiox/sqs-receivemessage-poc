@@ -1,0 +1,16 @@
+{
+    "name": "consumer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Andre Macedo",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.951.0",
+        "dotenv": "^10.0.0"
+    }
+}

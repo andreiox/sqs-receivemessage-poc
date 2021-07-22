@@ -1,0 +1,14 @@
+[
+    {
+        "name": "doorkeeper1",
+        "batchsize": 5
+    },
+    {
+        "name": "doorkeeper2",
+        "batchsize": 3
+    },
+    {
+        "name": "doorkeeper3",
+        "batchsize": 1
+    }
+]
