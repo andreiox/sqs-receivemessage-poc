@@ -1,7 +1,7 @@
 const AWS = require("aws-sdk");
 const dotenv = require("dotenv");
 
-const queues = require("./queues.json");
+const queues = require("./consumer/queues.json");
 
 dotenv.config();
 
